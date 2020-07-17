@@ -3125,7 +3125,8 @@ input[type=checkbox]:focus,
 input[type=radio]:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px
+    outline-offset: -2px;
+    background-color: gray;
 }
 
 output {
