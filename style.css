@@ -155,6 +155,24 @@ a:hover {
     transform: scale(1.25);
 }
 
+.d-bloc .a-btn:focus,
+.d-bloc .navbar a:focus,
+.d-bloc .navbar-brand:focus,
+.d-bloc a:focus .icon-sm,
+.d-bloc a:focus .icon-md,
+.d-bloc a:focus p,
+.d-bloc a:focus .icon-lg,
+.d-bloc a:focus .icon-xl,
+.d-bloc h1 a:focus,
+.d-bloc h2 a:focus,
+.d-bloc h3 a:focus,
+.d-bloc h4 a:focus,
+.d-bloc h5 a:focus,
+.d-bloc h6 a:focus,
+.d-bloc p a:focus {
+    color: gray;
+}
+
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
@@ -235,6 +253,7 @@ a:hover {
 .l-bloc h6 a,
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
+    transform: scale(1);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -255,6 +274,25 @@ a:hover {
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
     text-decoration: underline;
+}
+
+.d-bloc .panel .a-btn:focus,
+.l-bloc .a-btn:focus,
+.l-bloc .navbar a:focus,
+.l-bloc .navbar-brand:focus,
+.l-bloc a:focus .icon-sm,
+.l-bloc a:focus .icon-md,
+.l-bloc a:focus p,
+.l-bloc a:focus .icon-lg,
+.l-bloc a:focus .icon-xl,
+.l-bloc h1 a:focus,
+.l-bloc h2 a:focus,
+.l-bloc h3 a:focus,
+.l-bloc h4 a:focus,
+.l-bloc h5 a:focus,
+.l-bloc h6 a:focus,
+.l-bloc p a:focus {
+    transform: scale(1.25);
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -459,8 +497,7 @@ nav .caret {
 }
 
 .btn-d,
-.btn-d:hover,
-.btn-d:focus {
+.btn-d:hover, {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
 }
@@ -791,6 +828,11 @@ h4 {
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: black!important;
+}
+
+.btn-atomic-tangerine:focus {
+    background: black!important;
+    color: #F3976C!important;
 }
 
 .ltc-white {
