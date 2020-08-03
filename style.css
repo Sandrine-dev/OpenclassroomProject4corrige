@@ -13,6 +13,7 @@ button {
     outline: none!important;
 }
 
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -152,7 +153,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    transform: scale(1.25);
+    color: gray;
 }
 
 .d-bloc .a-btn:focus,
@@ -170,7 +171,7 @@ a:hover {
 .d-bloc h5 a:focus,
 .d-bloc h6 a:focus,
 .d-bloc p a:focus {
-    color: gray;
+    transform: scale(1.25);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -497,7 +498,7 @@ nav .caret {
 }
 
 .btn-d,
-.btn-d:hover, {
+.btn-d:hover {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
 }
@@ -593,12 +594,17 @@ a[data-lightbox]:hover::before {
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    transform: scale(1);
 }
 
 a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
+}
+
+a[data-lightbox]:focus {
+    transform: scale(1.15);
 }
 
 #lightbox-modal {
@@ -835,17 +841,18 @@ h4 {
     color: #F3976C!important;
 }
 
-.ltc-white {
+.text-center a {
     color: #FFFFFF!important;
 }
 
-.ltc-white:hover {
+.text-center a:hover {
     color: #cccccc!important;
 }
 
 .ltc-atomic-tangerine {
     color: #F3976C!important;
 }
+
 
 .ltc-atomic-tangerine:hover {
     color: #c27956!important;
